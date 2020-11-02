@@ -26,7 +26,7 @@ namespace kapp.Controllers
 
         public IActionResult Privacy()
         {
-            _logger.LogInformation("add error");
+            _logger.LogInformation("add error")
             return View();
         }
 
