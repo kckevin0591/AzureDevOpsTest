@@ -22,6 +22,7 @@ namespace kapp.Controllers
         {
             _logger.LogInformation("we are logging INFORMATION team ------------------------------------------- BOOOOOP !");
             _logger.LogError("we are logging ERROR team ------------------------------------------- BOOOOOP !");
+            _logger.LogWarning("we are logging WARNING team ------------------------------------------- BOOOOOP !");
             return View();
         }
 
