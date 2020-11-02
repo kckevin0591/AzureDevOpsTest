@@ -20,6 +20,7 @@ namespace kapp.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("we are logging team!");
             return View();
         }
 
